@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bawse Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="img/bawse_game.mp4" type="video/mp4">
+            </video>
+            <nav>
+                <img src="img/logo.png" class="logo">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">IDK</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                    <img src="img/menu.png" class="menu-icon">
+            </nav>
+
+            <div class="text-box">
+                <h1><span class="auto-input"></span></h1>
+                <a href="">Contact Me</a>
+                <a href="BAWSE.zip" class="btn">Download Game</a>
+                
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-input", {
+                strings: ["Bawse Game", "Made with Unity 3D", "by Rodrigo Araujo"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+    </body>
+</html>
